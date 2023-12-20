@@ -37,12 +37,12 @@ notifications:
 sudo: false
 
 services:
-  - mysql
+  - mysql2
 env:
   - DB_USER=mp DB_PASS='mp'
 
 before_script:
-  - mysql -e 'create database mppg;'
-  - mysql -e "create user 'mp'@'localhost' identified by 'mp';"
-  - mysql -e "grant all privileges on * . * to 'mp'@'localhost';" -u root
-  - mysql -e "flush privileges;" -u root
+  - mysql2 -e 'create database mppg;'
+  - mysql2 -e "create user 'mp'@'localhost' identified by 'mp';"
+  - mysql2 -e "grant all privileges on * . * to 'mp'@'localhost';" -u root
+  - mysql2 -e "flush privileges;" -u root
