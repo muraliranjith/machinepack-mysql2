@@ -11,7 +11,7 @@ Structured Node.js bindings for MySQL.
 ## Installation &nbsp; [![NPM version](https://badge.fury.io/js/machinepack-mysql.svg)](http://badge.fury.io/js/machinepack-mysql) [![Build Status](https://travis-ci.org/sailshq/machinepack-mysql.png?branch=master)](https://travis-ci.org/sailshq/machinepack-mysql)
 
 ```sh
-$ npm install machinepack-mysql
+$ npm install machinepack-mysql2
 ```
 
 
